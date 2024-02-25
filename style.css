@@ -3,9 +3,28 @@ html {
   width: 100%;
 }
 body {
-  background-color: lightgreen;
+  background-color: white;
 }
 p {
   color: red;
 }
+.rectangle {
+  width: 1400px;
+  height: 700px; 
+  background-color: lightblue;
+  border-radius: 20px;
+  margin: 100px auto 0;
+  display: flex; 
+  align-items: flex-start;
+  justify-content: center; 
+}
 
+.text {
+  font-size: 50px; /* Adjust the font size as needed */
+  font-weight: bold; /* Use bold font weight */
+  text-align: center; /* Align the text horizontally */
+  line-height: 100px; /* Align the text vertically by matching it with the height of the rectangle */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  color:#8205ff;
+}
